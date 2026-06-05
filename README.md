@@ -1,7 +1,6 @@
 <div align="center">
 
-<!-- replace this comment with your banner image -->
-<!-- ![Morse Code Pro Banner](assets/banner.png) -->
+<img src="/assets/banner.png" alt="Morse Code Pro's Banner" width="100%" loading="lazy">
 
 # Morse Code Pro
 
@@ -11,15 +10,23 @@ a professional desktop toolkit for morse code — built entirely offline, with n
 
 [![python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://python.org)
 [![license MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![version 2.0](https://img.shields.io/badge/version-2.0-orange.svg)]()
+[![version 2.0](https://img.shields.io/badge/version-1.5-orange.svg)]()
 [![platform windows](https://img.shields.io/badge/platform-windows-lightgrey.svg)]()
 
 </div>
 
 ---
 
-<!-- replace this comment with your main app screenshot -->
-<!-- ![Morse Code Pro Screenshot](assets/screenshot_main.png) -->
+<table>
+    <tr>
+        <td>
+            <img alt="main window light theme screenshot of morse code pro python app" width="100%" src="/screenshots/1.png">
+        </td>
+        <td>
+            <img alt="main window dark theme screenshot of morse code pro python app" width="100%" src="/screenshots/2.png">
+        </td>
+    </tr>
+</table>
 
 ---
 
@@ -46,16 +53,17 @@ it converts text to morse and morse to text across six languages, plays back aud
 
 ## screenshots
 
-<!-- add your screenshots here by replacing these comments -->
 
-<!-- translation tab -->
-<!-- ![Translation Tab](assets/screenshot_translation.png) -->
-
-<!-- microphone detection tab -->
-<!-- ![Microphone Tab](assets/screenshot_microphone.png) -->
-
-<!-- learning mode -->
-<!-- ![Learning Mode](assets/screenshot_learning.png) -->
+<table>
+    <tr>
+        <td>
+            <img alt="translation window dark theme screenshot of morse code pro python app" width="100%" src="/screenshots/6.png">
+        </td>
+        <td>
+            <img alt="learning window dark theme screenshot of morse code pro python app" width="100%" src="/screenshots/3.png">
+        </td>
+    </tr>
+</table>
 
 ---
 
@@ -236,27 +244,17 @@ use clean, short beeps at a consistent pitch between 600 and 1400 Hz. the detect
 
 ## author
 
-**Mohsen Jafari** — creator, developer, designer
+**Mohsen Jafari**.
 
 built during internet restrictions in Iran. proof that creativity and persistence know no boundaries.
 
 - GitHub: [github.com/mh3nj](https://github.com/mh3nj)
-- LinkedIn: [linkedin.com/in/mh3nj](https://linkedin.com/in/mh3nj)
+- Xing: [Mohsen Jafari's Xing Profile](https://www.xing.com/profile/Mohsen_Jafari093223/)
 - logo design portfolio: [Parsegan.com](https://parsegan.com)
-- land surveying portfolio: [Dahgan.com](https://dahgan.com)
+- land survey / portfolio: [Dahgan.com](https://dahgan.com)
 
 ---
 
 ## license
 
 MIT license. free for personal and commercial use. share, modify, and distribute freely.
-
----
-
-## acknowledgments
-
-thanks to the teams behind customtkinter, sounddevice, numpy, scipy, and pyttsx3 for making cross-platform desktop audio apps possible in Python.
-
----
-
-*Morse Code Pro — bridging silence and signal, one beep at a time.* 📡
