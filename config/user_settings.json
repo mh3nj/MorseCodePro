@@ -1,0 +1,14 @@
+{
+  "theme": "dark",
+  "language": "english",
+  "audio_speed": 1.0,
+  "auto_backup": true,
+  "mic_sensitivity": 50,
+  "tts_rate": 150,
+  "tts_volume": 0.8,
+  "recent_files": [],
+  "favorite_translations": [],
+  "last_language": "english",
+  "show_waveform": true,
+  "confidence_threshold": 60
+}
