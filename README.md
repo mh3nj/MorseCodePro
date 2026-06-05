@@ -74,26 +74,84 @@ it converts text to morse and morse to text across six languages, plays back aud
 - Python 3.11 or newer
 - works on Windows (Linux and macOS mostly supported)
 
-### installation
+# how to Run Morse Code Pro
+
+### option 1: From Source (Python required)
 
 ```bash
+# Clone the repository
 git clone https://github.com/mh3nj/MorseCodePro.git
 cd MorseCodePro
+
+# Create virtual environment
 python -m venv venv
 
-# windows
+# Activate virtual environment
+# Windows:
 venv\Scripts\activate
 
-# mac / linux
+# macOS / Linux:
 source venv/bin/activate
 
+# Install dependencies
 pip install -r requirements.txt
+
+# Launch the app
 python main.py
 ```
 
-### standalone executable
+### option 2: Standalone Executable (No Python required)
 
-download the latest release from the [GitHub releases page](https://github.com/mh3nj/MorseCodePro/releases). unzip and run `MorseCodePro.exe` directly, no Python installation needed.
+1. Download the latest `MorseCodePro.exe` from [Releases](https://github.com/mh3nj/MorseCodePro/releases)
+2. Extract the ZIP file
+3. Double-click `MorseCodePro.exe`
+
+### option 3: Using the Cross-Platform Launcher
+
+```bash
+# Windows
+launch.bat
+
+# macOS / Linux
+chmod +x launch.sh
+./launch.sh
+```
+
+### option 4: Universal Python Installer
+
+```bash
+python install.py
+```
+
+---
+
+## First Launch Tips
+
+- **Microphone detection**: Keep quiet for 1-2 seconds after clicking "Start Listening"; the app auto-calibrates to your background noise
+- **Audio playback**: Use the speed slider (0.5x to 3x) to adjust playback speed
+- **Learning mode**: Start with Alphabet mode before moving to Advanced
+- **Dark/Light theme**: Toggle using the button in the top-right corner
+
+---
+
+## System Requirements
+
+- **Python**: 3.11 or newer (for source installation)
+- **OS**: Windows 10/11 (fully supported), macOS/Linux (mostly supported)
+- **RAM**: 256MB minimum, 512MB recommended
+- **Storage**: 150MB for source code + dependencies
+
+---
+
+## Need Help?
+
+- Press `F1` inside the app for help
+- Check the [Issues](https://github.com/mh3nj/MorseCodePro/issues) page
+- Open a new issue with your error log
+
+---
+
+**That's it! Start your Morse journey today!**
 
 ---
 
