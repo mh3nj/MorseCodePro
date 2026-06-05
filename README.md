@@ -100,13 +100,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-### option 2: Standalone Executable (No Python required)
-
-1. Download the latest `MorseCodePro.exe` from [Releases](https://github.com/mh3nj/MorseCodePro/releases)
-2. Extract the ZIP file
-3. Double-click `MorseCodePro.exe`
-
-### option 3: Using the Cross-Platform Launcher
+### option 2: Using the Cross-Platform Launcher
 
 ```bash
 # Windows
@@ -117,7 +111,7 @@ chmod +x launch.sh
 ./launch.sh
 ```
 
-### option 4: Universal Python Installer
+### option 3: Universal Python Installer
 
 ```bash
 python install.py
